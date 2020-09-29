@@ -1,0 +1,52 @@
+.left-logo {
+  margin-left: 10px;
+}
+
+.left-logo h1,
+h4 {
+  display: inline-block;
+}
+
+.left-logo h1 {
+  margin-right: 9px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-nav {
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 20px auto;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#who-I-am img {
+  height: 250px;
+  width: 190px;
+}
+
+p.footer-p {
+  position: relative;
+  display: inline-block;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+}
+
+.body {
+  height: 100vh;
+}
