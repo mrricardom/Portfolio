@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Ricardo Martini's Potfolio</title>
   </head>
   <body>
@@ -16,8 +20,8 @@
         <div class="right-nav">
           <ul>
             <a href="#who-I-am"><li>Who am I?</li></a>
-            <a href="#my-projects"><li>My Projects</li></a>
             <a href="#my-skills"><li>My Skills</li></a>
+            <a href="#my-projects"><li>My Projects</li></a>
             <a href="#work-with-me"><li>Work with Me</li></a>
             <a
               target="_blank"
@@ -48,88 +52,8 @@
             </div>
           </div>
         </div>
-        <div id="my-projects">
-          <h2 class="project-h2">Projects</h2>
-          <div class="projects">
-            <div class="project">
-              <h4>Math the Fun Way!</h4>
-              <img src="math.png" />
-              <h5>Languages Used:</h5>
-              <button
-                onclick="window.open('http://ricardom.host20.uk/Websites/MathWebsite-HTML&CSS/','_blank')"
-              >
-                Checkout the Site
-              </button>
-              <button
-                onclick="window.open('https://github.com/mrricardom/MaththeFunWay','_blank')"
-              >
-                Checkout the Code
-              </button>
-            </div>
-            <div class="project">
-              <h4>The Astrological Library</h4>
-              <img src="astro.png" />
-              <h5>Languages Used:</h5>
-              <button
-                onclick="window.open('https://pages.git.generalassemb.ly/Mrricardom/Astrological-library/','_blank')"
-              >
-                Checkout the Site
-              </button>
-              <button
-                onclick="window.open('https://github.com/mrricardom/Astrological-Library','_blank')"
-              >
-                Checkout the Code
-              </button>
-            </div>
-            <div class="project">
-              <h4>Tarantella</h4>
-              <img src="tarantella.png" />
-              <h5>Languages Used:</h5>
-              <button
-                onclick="window.open('https://tarantellamusic.netlify.app/','_blank')"
-              >
-                Checkout the Site
-              </button>
-              <button
-                onclick="window.open('https://github.com/mrricardom/Tarantella','_blank')"
-              >
-                Checkout the Code
-              </button>
-            </div>
-            <div class="project">
-              <h4>Black Girls Code</h4>
-              <img src="bcg.png" />
-              <h5>Languages Used:</h5>
-              <button
-                onclick="window.open('https://blackgirlscodep3.netlify.app/','_blank')"
-              >
-                Checkout the Site
-              </button>
-              <button
-                onclick="window.open('https://github.com/mrricardom/Black-Girls-Code-P3','_blank')"
-              >
-                Checkout the Code
-              </button>
-            </div>
-            <div class="project">
-              <h4>Joystix</h4>
-              <img src="joystix.png" />
-              <h5>Languages Used:</h5>
-              <button
-                onclick="window.open('https://joystix.netlify.app/','_blank')"
-              >
-                Checkout the Site
-              </button>
-              <button
-                onclick="window.open('https://github.com/mrricardom/Joystix','_blank')"
-              >
-                Checkout the Code
-              </button>
-            </div>
-          </div>
-        </div>
         <div id="my-skills">
-          <h2>My Skills</h2>
+          <h2 class="skill-h2">My Skills</h2>
           <div class="skills">
             <!-- Visual Studio Code -->
             <img
@@ -223,31 +147,172 @@
             />
           </div>
         </div>
+        <div id="my-projects">
+          <h2 class="project-h2">Projects</h2>
+          <div class="projects">
+            <div class="project">
+              <h4 class="project-h4">Math the Fun Way!</h4>
+              <img src="math.png" />
+              <div class="tech-used">
+                <h5>Technology Used:</h5>
+                <ul>
+                  <li>Github</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button
+                  onclick="window.open('http://ricardom.host20.uk/Websites/MathWebsite-HTML&CSS/','_blank')"
+                >
+                  Checkout the Site
+                </button>
+                <button
+                  onclick="window.open('https://github.com/mrricardom/MaththeFunWay','_blank')"
+                >
+                  Checkout the Code
+                </button>
+              </div>
+            </div>
+            <div class="project">
+              <h4 class="project-h4">The Astrological Library</h4>
+              <img src="astro.png" />
+              <div class="tech-used">
+                <h5>Technology Used:</h5>
+                <ul>
+                  <li>Github</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button
+                  onclick="window.open('https://pages.git.generalassemb.ly/Mrricardom/Astrological-library/','_blank')"
+                >
+                  Checkout the Site
+                </button>
+                <button
+                  onclick="window.open('https://github.com/mrricardom/Astrological-Library','_blank')"
+                >
+                  Checkout the Code
+                </button>
+              </div>
+            </div>
+            <div class="project">
+              <h4 class="project-h4">Tarantella</h4>
+              <img src="tarantella.png" />
+              <div class="tech-used">
+                <h5>Technology Used:</h5>
+                <ul>
+                  <li>Github</li>
+                  <li>NPM</li>
+                  <li>React</li>
+                  <li>JSX</li>
+                  <li>Netlify</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button
+                  onclick="window.open('https://tarantellamusic.netlify.app/','_blank')"
+                >
+                  Checkout the Site
+                </button>
+                <button
+                  onclick="window.open('https://github.com/mrricardom/Tarantella','_blank')"
+                >
+                  Checkout the Code
+                </button>
+              </div>
+            </div>
+            <div class="project">
+              <h4 class="project-h4">Black Girls Code</h4>
+              <img src="bcg.png" />
+              <div class="tech-used">
+                <h5>Technology Used:</h5>
+                <ul>
+                  <li>Github</li>
+                  <li>Express</li>
+                  <li>MongoDB</li>
+                  <li>Heroku</li>
+                  <li>React</li>
+                  <li>JSX</li>
+                  <li>Netlify</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button
+                  onclick="window.open('https://blackgirlscodep3.netlify.app/','_blank')"
+                >
+                  Checkout the Site
+                </button>
+                <button
+                  onclick="window.open('https://github.com/mrricardom/Black-Girls-Code-P3','_blank')"
+                >
+                  Checkout the Code
+                </button>
+              </div>
+            </div>
+            <div class="project">
+              <h4 class="project-h4">Joystix</h4>
+              <img src="joystix.png" />
+              <div class="tech-used">
+                <h5>Technology Used:</h5>
+                <ul>
+                  <li>Github</li>
+                  <li>PostgreSQL</li>
+                  <li>Ruby</li>
+                  <li>Rails</li>
+                  <li>Heroku</li>
+                  <li>React</li>
+                  <li>JSX</li>
+                  <li>Netlify</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button
+                  onclick="window.open('https://joystix.netlify.app/','_blank')"
+                >
+                  Checkout the Site
+                </button>
+                <button
+                  onclick="window.open('https://github.com/mrricardom/Joystix','_blank')"
+                >
+                  Checkout the Code
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="work-with-me">
-          <h2>Work with Me</h2>
-          <a href="mailto:ricmartini16@gmail.com">Send Me an Email</a>
-          <div class="outer-links">
-            <a target="_blank" href="https://github.com/mrricardom"
-              ><img
-                title="Ricardo's Github"
-                src="https://devicon.dev/devicon.git/icons/github/github-original.svg"
-                alt="Github"
-            /></a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/ricardo-martini/"
-            >
-              <img
-                title="Ricardo's Linkedin"
-                src="https://devicon.dev/devicon.git/icons/linkedin/linkedin-original.svg"
-                alt="Linkedin"
-            /></a>
-            <a
-              target="_blank"
-              href="https://drive.google.com/file/d/14hZmYWP4hxorYt-ns4JneKdUQKK7app9/view?usp=sharing"
-            >
-              <img title="Ricardo's Resume" src="resume.png" alt="Resume"
-            /></a>
+          <h2 class="work-h2">Work with Me</h2>
+          <div class="contact">
+            <div class="email">
+              <a href="mailto:ricmartini16@gmail.com">Send Me an Email</a>
+            </div>
+            <div class="outer-links">
+              <a target="_blank" href="https://github.com/mrricardom"
+                ><img
+                  title="Ricardo's Github"
+                  src="https://devicon.dev/devicon.git/icons/github/github-original.svg"
+                  alt="Github"
+              /></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/ricardo-martini/"
+              >
+                <img
+                  title="Ricardo's Linkedin"
+                  src="https://devicon.dev/devicon.git/icons/linkedin/linkedin-original.svg"
+                  alt="Linkedin"
+              /></a>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/14hZmYWP4hxorYt-ns4JneKdUQKK7app9/view?usp=sharing"
+              >
+                <img title="Ricardo's Resume" src="resume.png" alt="Resume"
+              /></a>
+            </div>
           </div>
         </div>
       </main>
