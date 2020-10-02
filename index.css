@@ -16,6 +16,14 @@ li {
   font-weight: bold;
 }
 
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
 nav {
   display: flex;
   width: 100vw;
@@ -134,7 +142,7 @@ nav {
 
 .project {
   display: flex;
-  width: 30%;
+  width: 31%;
   margin: 10px 10px 10px 0;
   flex-direction: column;
   align-items: center;
