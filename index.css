@@ -265,12 +265,13 @@ p.footer-p {
     justify-content: center;
   }
 
-  /* h1.left-logo {
-    font-size: 50px;
+  h1.left-logo {
+    font-size: 20px;
   }
   .left-logo h4 {
-    font-size: 50px;
-  } */
+    margin-top: 35px;
+    font-size: 18px;
+  }
   .right-nav {
     display: none;
   }
@@ -294,6 +295,7 @@ p.footer-p {
   .skill-h2,
   .project-h2,
   .work-h2 {
+    padding-top: 50px;
     margin-left: 20px;
   }
   .skills {
@@ -306,16 +308,15 @@ p.footer-p {
   }
   */
   .about-me {
-    margin-top: 30px;
-    flex-direction: row-reverse;
+    margin-top: 40px;
+    flex-direction: column;
   }
   .me-description {
-    margin-left: 10px;
+    margin-left: 20px !important;
   }
-  /* #who-I-am img {
-    height: 700px;
-    width: 450px;
-  }  */
+  #who-I-am img {
+    margin: 0 0 50px 145px;
+  }
   /* .right-nav {
     display: none;
   } */
@@ -324,21 +325,27 @@ p.footer-p {
   }
   html {
     height: 100vh;
-    width: 250%;
+    width: 200%;
+  }
+  .tech-used {
+    margin-left: 15px;
   }
   /* 
   .project-h4 {
     font-size: 40px;
   }
+  */
   .project img {
-    height: 400px;
-    width: 400px;
+    height: 175px;
+    width: 175px;
   }
+  /* 
   .footer-p {
     font-size: 2.5em;
   } */
   .projects {
     margin-left: 10px;
+    width: 100%;
   }
   .contact {
     margin-left: 20px;
