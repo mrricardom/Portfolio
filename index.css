@@ -257,56 +257,74 @@ p.footer-p {
     /* position: fixed; */
     /* margin-left: -10px; */
   }
-  /* 
+
   .left-logo {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
-  h1.left-logo {
+
+  /* h1.left-logo {
     font-size: 50px;
   }
   .left-logo h4 {
     font-size: 50px;
-  }
+  } */
   .right-nav {
     display: none;
   }
-  .about {
+  button {
+    margin-bottom: 20px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .about {
     font-size: 40px;
     width: 800px;
   }
   .about-h2 {
     font-size: 50px;
   }
+   */
   .skill-h2,
   .project-h2,
   .work-h2 {
-    font-size: 60px;
+    margin-left: 20px;
   }
   .skills {
-    height: 90px;
+    margin-left: 20px;
   }
+  /* 
   .skills img {
     height: 70px;
     width: 70px;
   }
+  */
   .about-me {
-    margin-top: 150px;
+    margin-top: 30px;
+    flex-direction: row-reverse;
   }
-  #who-I-am img {
+  .me-description {
+    margin-left: 10px;
+  }
+  /* #who-I-am img {
     height: 700px;
     width: 450px;
-  } */
+  }  */
   /* .right-nav {
     display: none;
   } */
-
+  .me-description {
+    margin: 0 auto 0 auto;
+  }
   html {
     height: 100vh;
-    width: max-content;
+    width: 250%;
   }
   /* 
   .project-h4 {
@@ -318,10 +336,14 @@ p.footer-p {
   }
   .footer-p {
     font-size: 2.5em;
+  } */
+  .projects {
+    margin-left: 10px;
   }
   .contact {
-    margin-bottom: 20px;
+    margin-left: 20px;
   }
+  /* 
   .email {
     height: 50px;
     font-size: 40px;
