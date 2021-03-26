@@ -308,7 +308,7 @@ p.footer-p {
   }
   */
   .about-me {
-    margin-top: 40px;
+    margin-top: 50px;
     flex-direction: column;
   }
   .me-description {
@@ -348,6 +348,7 @@ p.footer-p {
     width: 100%;
   }
   .contact {
+    width: 95%;
     margin-left: 20px;
   }
   /* 
@@ -355,4 +356,25 @@ p.footer-p {
     height: 50px;
     font-size: 40px;
   } */
+}
+
+@media only screen and (min-device-width: 900px) and (max-device-width: 1200px) {
+  h1.left-logo {
+    font-size: 17px;
+  }
+  .left-logo h4 {
+    margin-top: 35px;
+    font-size: 13px;
+  }
+  .nav-link {
+    font-size: 13px;
+    margin-top: -5px;
+  }
+  .project button {
+    width: 100px;
+  }
+  .buttons {
+    align-items: center;
+    justify-content: center;
+  }
 }
